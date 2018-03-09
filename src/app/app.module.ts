@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { FechactualComponent } from './fechactual/fechactual.component';
+import { CopyrightComponent } from './copyright/copyright.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FechactualComponent
+    FechactualComponent,
+    CopyrightComponent
   ],
   imports: [
     BrowserModule
