@@ -3,11 +3,12 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { FechactualComponent } from './fechactual/fechactual.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FechactualComponent
   ],
   imports: [
     BrowserModule
